@@ -53,7 +53,6 @@ int cbinsearch(int *arr, int size, int value) {
     return count;
 }
 int countPairs3(int *arr, int len, int value) {
-  return 0;
     int counter = 0;
     int i = 0;
     while (arr[i] <= (value / 2) - 1) {
